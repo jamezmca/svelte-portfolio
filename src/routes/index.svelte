@@ -73,7 +73,8 @@
 </main>
 
 <div class="absolute inset-0 z-0">
-	<img class="object-cover w-full h-full" src="bg2.avif" alt="bg-img" />
+	<img class="object-cover w-full h-full z-10" src="bg2.avif" alt="bg-img"/>
+	<!-- <img class="object-cover w-full h-full z-[1]" src="bg2-lowres.jpeg" alt="bg-img"/> -->
 </div>
 
 <style>

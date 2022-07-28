@@ -6,7 +6,7 @@
 	<title>James McArthur</title>
 	<meta
 		name="description"
-		content="Learn to code for free by completing this 2022 self-taught web developer roadmap."
+		content="Beefcake & software dev"
 	/>
 </svelte:head>
 
