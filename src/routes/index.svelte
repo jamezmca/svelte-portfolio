@@ -1,5 +1,15 @@
 <script>
-	import Layout from './__layout.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		loadHighResImage(document.getElementById('bg-img'), 'bg2.avif');
+	});
+
+	function loadHighResImage(elem, highResUrl) {
+		let image = new Image();
+		image.addEventListener('load', () => (elem.src = highResUrl));
+		image.src = highResUrl;
+	}
 </script>
 
 <main
@@ -41,7 +51,7 @@
 		</li>
 		<li class="menu-item">
 			<!-- <div>Medium</div> -->
-			<a href="https://medium.com/@_Smoljames"  target="_blank">
+			<a href="https://medium.com/@_Smoljames" target="_blank">
 				<i
 					class="fa-brands fa-medium  after:absolute after:top-full after:content-['Blog'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2"
 				/>
@@ -50,7 +60,7 @@
 			<!-- <span>Blog</span> -->
 		</li>
 		<li class="menu-item">
-			<a href="https://github.com/jamezmca"  target="_blank">
+			<a href="https://github.com/jamezmca" target="_blank">
 				<!-- <div>Github</div> -->
 				<i
 					class="fa-brands fa-github  after:absolute after:top-full after:content-['Github'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2 "
@@ -61,7 +71,7 @@
 		</li>
 		<li class="menu-item">
 			<!-- <div>LinkedIn</div> -->
-			<a href="https://www.linkedin.com/in/jamezmcarthur/"  target="_blank">
+			<a href="https://www.linkedin.com/in/jamezmcarthur/" target="_blank">
 				<i
 					class="fa-brands fa-linkedin  after:absolute after:top-full after:content-['LinkedIn'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2"
 				/>
@@ -73,7 +83,7 @@
 </main>
 
 <div class="absolute inset-0 z-0">
-	<img class="object-cover w-full h-full z-10" src="bg2.avif" alt="bg-img"/>
+	<img id="bg-img" class="object-cover w-full h-full z-10" src="bg2-lowres.jpeg" alt="bg-img" />
 	<!-- <img class="object-cover w-full h-full z-[1]" src="bg2-lowres.jpeg" alt="bg-img"/> -->
 </div>
 
