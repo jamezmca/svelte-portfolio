@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blue-text {
+    color: #00aeff;
+}
+
+.blue-text:hover {
+    color: cyan;
+}
+
+* {
+    transition-duration: 200ms;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+h2, h3 {
+    color: #345;
+}
+
+p, h4 {
+    color: #465e75;
+}
