@@ -30,7 +30,7 @@
 			<!-- <div>Projects</div> -->
 		</li>
 		<li class="menu-item">
-			<a href="https://www.youtube.com/c/Smoljames">
+			<a href="https://www.youtube.com/c/Smoljames" target="_blank">
 				<i
 					class="fa-brands fa-youtube  after:absolute after:top-full after:content-['Youtube'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2"
 				/>
@@ -41,7 +41,7 @@
 		</li>
 		<li class="menu-item">
 			<!-- <div>Medium</div> -->
-			<a href="https://medium.com/@_Smoljames">
+			<a href="https://medium.com/@_Smoljames"  target="_blank">
 				<i
 					class="fa-brands fa-medium  after:absolute after:top-full after:content-['Blog'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2"
 				/>
@@ -50,7 +50,7 @@
 			<!-- <span>Blog</span> -->
 		</li>
 		<li class="menu-item">
-			<a href="https://github.com/jamezmca">
+			<a href="https://github.com/jamezmca"  target="_blank">
 				<!-- <div>Github</div> -->
 				<i
 					class="fa-brands fa-github  after:absolute after:top-full after:content-['Github'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2 "
@@ -61,7 +61,7 @@
 		</li>
 		<li class="menu-item">
 			<!-- <div>LinkedIn</div> -->
-			<a href="https://www.linkedin.com/in/jamezmcarthur/">
+			<a href="https://www.linkedin.com/in/jamezmcarthur/"  target="_blank">
 				<i
 					class="fa-brands fa-linkedin  after:absolute after:top-full after:content-['LinkedIn'] after:text-xs after:left-1/2 after:opacity-0 hover:after:opacity-100 after:duration-300 after:-translate-x-1/2"
 				/>

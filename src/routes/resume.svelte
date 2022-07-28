@@ -81,7 +81,7 @@
     <div class="flex flex-col gap-3 contacts">
 		<div class="flex items-center gap-1.5">
 			<h4>Gym, Tennis & Running</h4>
-			<p class="">Road for the Auckland Marathon & a mass monster in the gym</p>
+			<p class="">Roadster for the Auckland Marathon & a mass monster in the gym</p>
 		</div>
 		<div class="flex items-center gap-1.5">
 			<h4>Spanish Linguist</h4>
