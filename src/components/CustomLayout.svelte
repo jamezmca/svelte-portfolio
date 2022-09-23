@@ -20,7 +20,8 @@
 	>
 		<div class="flex flex-col gap-5">
 			<div class="flex items-center">
-				<a href="/resume">Resume</a>
+				<a class="inline sm:hidden" href="./James McArthur Resume.pdf" download>PDF Resume</a>
+				<a class="hidden sm:inline" href="/pdf_view" target="_blank">PDF Resume</a>
 				<div class="px-3">|</div>
 				<a href="/projects">Projects</a>
 				<div class="px-3">|</div>
