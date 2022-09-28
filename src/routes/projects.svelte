@@ -70,7 +70,7 @@
 					<h2 class="text-center font-semibold text-3xl sm:text-4xl">WEBDEV ROADMAP</h2>
 				</a>
 				<p class="text-justify">
-					The Webdev Codemap is an web app that aims to amalgamate all of the top, free, online
+					The Webdev Codemap is a web app that aims to amalgamate all of the top, free, online
 					learning resources for self-teaching web development. It structures said resources into a
 					fun and interactive roadmap that provides the user with a more personal and engaging
 					learning experience as they work through the content. Local storage is used to personalize
